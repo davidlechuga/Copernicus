@@ -68,6 +68,13 @@
 		font-weight: 800;
 		color: #555555;
 	}
+
+	/* TEXTO INFORMACION BODY */
+
+	.info-text {
+		text-align-last: justify;
+		font-size: 28px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -139,5 +146,14 @@
 		opacity: 0.8;
 		font-weight: 800;
 		color: #555555;
+	}
+
+	/* TEXTO INFORMACION BODY */
+
+	.info-text {
+		text-align-last: justify;
+		font-size: 28px;
+		word-break: break-all;
+		margin-left: 150px;
 	}
 }
