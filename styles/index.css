@@ -74,6 +74,7 @@
 	.info-text {
 		text-align-last: justify;
 		font-size: 28px;
+		color: #ff7700;
 	}
 }
 
@@ -114,7 +115,7 @@
 		font-size: 30px !important;
 	}
 
-	/* Imagen styles */
+	/* Imagen catolica styles */
 
 	#escuelaCatolica {
 		width: 100%;
@@ -154,6 +155,14 @@
 		text-align-last: justify;
 		font-size: 28px;
 		word-break: break-all;
-		margin-left: 150px;
+		margin-left: 85px;
+		color: #ff7700;
+	}
+
+	/* Imagenes ASIDE */
+
+	.body-img-jucam {
+		width: 100px;
+		height: 100px;
 	}
 }
