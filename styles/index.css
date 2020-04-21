@@ -76,6 +76,60 @@
 		font-size: 28px;
 		color: #ff7700;
 	}
+
+	.margen-gris {
+		border-top: 1px solid #555555;
+		width: 100%;
+		margin-top: 35px;
+	}
+	.color-span {
+		color: #ff7700;
+	}
+
+	/* Imagenes ASIDE */
+	.body-img-jucam {
+		width: 100px;
+		height: 100px;
+	}
+
+	/* FOOTER LOGO */
+
+	.footer-logo {
+		width: 50px;
+		height: 50px;
+		margin-left: 60px;
+		margin-bottom: 100px;
+	}
+
+	.row-footer-logo {
+		border-bottom: 1px solid white;
+	}
+
+	.direction-small {
+		text-align: center;
+		color: white;
+	}
+	.col-icons {
+		border-top: 1px solid white;
+		text-align: center;
+	}
+
+	.face-icon {
+		width: 100px;
+		height: 100px;
+	}
+	.tweet-icon {
+		height: 100px;
+		width: 100px;
+	}
+
+	.p-contacto {
+		color: white;
+	}
+
+	.copy {
+		color: white;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -164,5 +218,75 @@
 	.body-img-jucam {
 		width: 100px;
 		height: 100px;
+	}
+
+	.margen-gris {
+		border-top: 1px solid #555555;
+		width: 100%;
+		margin-top: 35px;
+	}
+
+	.color-span {
+		color: #ff7700;
+	}
+
+	/* IMAGENES TESTIGOS STYLE*/
+	#img-contenedor img {
+		-webkit-transition: all .9s ease; /* Safari y Chrome */
+		-moz-transition: all .9s ease; /* Firefox */
+		-o-transition: all .9s ease; /* IE 9 */
+		-ms-transition: all .9s ease; /* Opera */
+		transition: all .9s ease;
+		width: 100%;
+	}
+	#img-contenedor:hover img {
+		-webkit-transform: scale(1.25);
+		-moz-transform: scale(1.25);
+		-ms-transform: scale(1.25);
+		-o-transform: scale(1.25);
+		transform: scale(1.25);
+	}
+	#img-contenedor {
+		/*Ancho y altura son modificables al requerimiento de cada uno*/
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* FOOTER LOGO */
+
+	.footer-logo {
+		width: 50px;
+		height: 50px;
+		margin-left: 80px;
+		margin-top: 25px;
+		margin-bottom: 100px;
+	}
+
+	.col-footer-logo {
+		text-align-last: end;
+		margin-top: 40px;
+	}
+
+	.direction-small {
+		text-align: center;
+		color: white;
+		margin-top: 80px;
+	}
+
+	.col-icons {
+		border-left: 1px solid white;
+		text-align: center;
+	}
+
+	.p-contacto {
+		color: white;
+		margin-top: 80px;
+	}
+	.row-footer-logo {
+		border-bottom: 1px solid white;
+		align-items: center;
 	}
 }
