@@ -4,8 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--   STYLESHEET INDEX.CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/contacto.css">
+    <!-- BOOTSTRAP STYLE -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FONTS GOOGLE SPARTAN -->
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap" rel="stylesheet">
+    <!--FONT AWESOM ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>soy el contacto</h1>
+<!-- NAVBAR -->
+    <div class="row">
+        <div class="margen1"></div>
+    </div>
+    <div class="row">
+        <div class="col-6 d-flex slogan">
+            <img id="logo" src="imagenes/header/cropped-rocket.png">
+            <h2 style="color: red;">
+                Copernicus <br>
+                Todos en la <br>
+                educación, <br>
+                educación para <br>
+                todos.
+            </h2>
+        </div>
+        <div class="col-12 col-sm-5 col-md-5 col-lg-5 colbuttons">
+            <button style="margin-right: 40px; color: gray; ">
+                <a href="index.html"> Inicio </a>
+            </button>
+            <button style="color: #21B5F4">
+                <a href="contacto.html"> Contacto </a>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="margen2"></div>
+    </div>
+<!-- NAVBAR -->
+
+<!-- FORM -->
+
+    <section class="row contacto mt-4 mx-0 px-0" id="contact">
+    <div class="col-12 my-4 ,mt-5 contact_title">
+        <h2><span>CONTACTO</span></h2>
+        <div class="alert"> Tu mensaje se ha enviado </div>
+
+    </div>
+    <section class="col-12 col-md-6  contacto_form">
+        <form action="" class="formulario mb-5" id="contactForm">
+            <div class="form-group mt-3">
+                <label for="nombre">NOMBRE: <span class="importante">*</span></label>
+                <input type="text" class="form-control" name="nombre" id="nombre" required>
+            </div>
+            <div class="form-group mt-4">
+                <label for="email">E-MAIL: <span class="importante">*</span></label>
+                <input type="email" class="form-control" name="email" id="email" required >
+            </div>
+            <div class="form-group mt-4">
+                <label for="tel">TELÉFONO: <span class="importante">*</span></label>
+                <input type="tel" class="form-control" name="tel" id="tel" required>
+            </div>
+            <div class="form-group mt-4">
+                <label for="asunto"> ASUNTO: <span class="importante">*</span></label>
+                <input type="text" class="form-control" name="asunto" id="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="msj">MENSAJE: <span class="importante">*</span></label>
+                <textarea name="msj" id="msj" class="form-control" maxlength="200"></textarea>
+            </div>
+            <button class="btn-danger form-boton btn-lg btn-block mt-4" type="submit">ENVIAR</button>
+        </form>
+    </section>
+    <section class="col-12 col-md-6 mt-5 mt-md-0 contacto_info">
+        <div class="row">
+            <h3 class=" col-12 info_contact mb-4">Información de contacto</h3>
+            <div class="col-12 col-md-12 d-flex justify-content-center mapa_google ">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1894909187804!2d-99.17650958509374!3d19.404216986900465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff69722628b5%3A0x74b7f79e6afe0f67!2sAv.+Benjam%C3%ADn+Franklin+186%2C+Escand%C3%B3n+II+Secc%2C+11800+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1559021959150!5m2!1ses-419!2smx"
+                    frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section> 
+<!-- FORM -->
+
+
+    <!-- FOOTER -->
+    <div class="row" style="background-color: #555555; margin-top: 40px;" >
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4" style="border-right: 1px solid white;">
+            <div class="row row-footer-logo">
+                <div class="col-6 col-footer-logo">
+                    <img class="footer-logo" src="imagenes/header/cropped-rocket.png" alt="logorocket">
+                </div>
+                <div class="col-6">
+                    <p class="copy">© 2020. Copernicus es impulsado por "Somos JUCAM", A.C.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <p class="direction-small"> Julio, Mario, Jesús.
+    
+                Av. Hidalgo 24, San Antonio Tecomitl
+    
+                urcajeal@gmail.com
+    
+                Tel: 55 1682 6317 </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-icons">
+            <p class="p-contacto"> Mantente en contacto:<br>
+                <i class="fa fa-facebook" style="font-size:48px;color:white"></i>
+                <i class="fa fa-twitter" style="font-size:48px;color:white"></i>
+            </p>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    
+    
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <!--This script (database) is not in the video and is new-->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+    <!--FUNCTIONs to connect firebase config -->
+    <script src="main.js"></script>
+
+    <!-- JS , POPPER , JQUERY BOOTSTRAP CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
