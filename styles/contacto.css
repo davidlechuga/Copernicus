@@ -85,7 +85,7 @@ html * {
 		background: #79c879;
 		color: white;
 		margin-bottom: 10px;
-		display: none;
+		display: none !important;
 	}
 
 
