@@ -210,11 +210,11 @@ html * {
 	/* TEXTO INFORMACION BODY */
 
 	.info-text {
-		text-align-last: justify;
+		text-align-last: start;
 		font-size: 28px;
-		word-break: break-all;
 		margin-left: 85px;
 		color: #ff7700;
+		padding-top: 40px;
 	}
 
 	/* Imagenes ASIDE */
